@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "google-closure-compiler": "^20240317.0.0"
+  },
+  "scripts": {
+    "generate": "google-closure-compiler --js ./source.js --js_output_file ./result.js"
+  }
+}
